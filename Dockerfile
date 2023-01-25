@@ -13,7 +13,6 @@ RUN apt-get update && \
                     libpcre3-dev \
                     zlib1g \
                     zlib1g-dev \
-                    libssl1.1 \
                     libssl-dev \
                     -y && \
     tar -xvf ${FILENAME}.${EXTENSION} && rm ${FILENAME}.${EXTENSION} && \
